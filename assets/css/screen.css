@@ -903,3 +903,8 @@ figcaption {
 .gh-copyright {
     font-size: 1.4rem;
 }
+
+.gh-about-third {
+    font-size: 1.8rem;
+    color: var(--color-secondary-text);
+}
