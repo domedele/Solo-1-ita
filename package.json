@@ -66,6 +66,11 @@
             },
             "secondary_header": {
                 "type": "text",
+                "default": "An email in a mounth, not spam",
+                "group": "homepage"
+            },
+            "third_header": {
+                "type": "text",
                 "default": "Subscribe below to receive my latest posts directly in your inbox",
                 "group": "homepage"
             },
