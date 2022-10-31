@@ -32,13 +32,13 @@
                 {{#if @custom.secondary_header}}
                     <p class="gh-about-secondary">{{{@custom.secondary_header}}}</p>
                 {{/if}}
+                {{#if @custom.third_header}}
+                    <p class="gh-copyright">{{{@custom.third_header}}}</p>
+                {{/if}} 
                 {{#unless @member}}
                     <div class="gh-subscribe-input" data-portal>
                         mariorossi@example.com
                         <span class="gh-btn gh-primary-btn">Iscriviti</span>
-                 {{#if @custom.third_header}}
-                    <p class="gh-about-secondary"><small>{{{@custom.third_header}}}</small></p>
-                {{/if}} 
                     </div>
                 {{/unless}}
             </div>
